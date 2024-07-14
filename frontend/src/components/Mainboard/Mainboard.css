@@ -1,0 +1,9 @@
+.mainboard-container {
+  margin-top: -100px;
+}
+/* 
+@media (width <= 768px) {
+  .mainboard-container {
+    margin-top: px;
+  }
+} */

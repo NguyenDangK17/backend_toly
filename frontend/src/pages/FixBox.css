@@ -1,0 +1,7 @@
+:where(.css-dev-only-do-not-override-3rel02).ant-layout,
+:where(.css-dev-only-do-not-override-3rel02).ant-layout * {
+  box-sizing: unset;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeInherit.mess-icon.css-1b9b0mf-MuiSvgIcon-root {
+  box-sizing: unset;
+}

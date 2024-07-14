@@ -1,0 +1,13 @@
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+  display: none;
+}
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 88vh;
+}
+
+.marker img {
+  width: 25px;
+  height: 25px;
+}

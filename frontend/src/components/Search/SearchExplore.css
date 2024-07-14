@@ -1,0 +1,60 @@
+.search-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.search-results-container h2 {
+  margin-bottom: 20px;
+}
+
+.explore-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.explore-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.explore-item:hover {
+  transform: translateY(-5px);
+}
+
+.explore-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.explore-details {
+  padding: 15px;
+}
+
+.explore-details h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.explore-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.explore-details .price {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.explore-details .rating {
+  color: #3498db;
+  font-weight: bold;
+}

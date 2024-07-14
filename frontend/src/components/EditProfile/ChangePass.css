@@ -1,0 +1,39 @@
+.changePass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 3rem;
+}
+.changePass-container {
+  width: 30%;
+}
+.form-field {
+  padding-bottom: 2rem;
+  margin-bottom: 0.5rem;
+  width: 95%;
+}
+.error-change-pass {
+  color: red;
+  position: absolute;
+  font-style: italic;
+  font-size: 14px;
+}
+h2.changePass-header {
+  text-align: center;
+  font-size: 32px;
+}
+.btn-save-change-pass {
+  float: right;
+  background-color: #243666;
+  border-radius: 50px;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-save-change-pass:hover {
+  opacity: 0.8;
+  background-color: #1d2c54;
+}

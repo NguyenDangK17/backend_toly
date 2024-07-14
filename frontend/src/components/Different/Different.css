@@ -1,0 +1,42 @@
+/* Different.css */
+
+/* Container for the entire section */
+.different-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fffefa;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* Icon styles */
+.card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+/* Heading styles */
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Description styles */
+p {
+  font-size: 14px;
+  color: #555;
+}

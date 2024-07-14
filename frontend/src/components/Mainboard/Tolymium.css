@@ -1,0 +1,143 @@
+.pre-container {
+  padding: 40px 200px;
+}
+
+.pre {
+  background-color: #ccc;
+  padding: 30px 50px;
+  border-radius: 20px;
+  min-height: 80vh;
+}
+
+.pre-header {
+  font-size: 2.5rem;
+  color: #3f4c74;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.pre-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #3f4c74;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pre-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.price-card {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.price-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+p.pre-package-name,
+.pre-package-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.ant-space-item {
+  display: flex;
+  align-items: center;
+}
+
+.pre-package-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+h1.price-number {
+  margin: 0;
+}
+
+.pre-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  min-height: 170px;
+  min-width: 300px;
+}
+
+.trial-btn {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #54b4b9;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 1s;
+}
+
+.trial-btn:hover {
+  background-color: #243666;
+}
+
+.trial-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -200%;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(135deg);
+  transition: left 1s;
+}
+
+.trial-btn:hover::before {
+  left: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .pre-container {
+    padding: 20px;
+  }
+
+  .pre-detail {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .price-card {
+    margin-bottom: 20px;
+  }
+
+  .price-header {
+    align-items: center;
+  }
+}

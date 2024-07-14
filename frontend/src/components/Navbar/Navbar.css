@@ -1,0 +1,124 @@
+nav {
+  position: sticky;
+  top: 0;
+  /* width: 100%; */
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 1rem; /* Adjust padding as needed */
+  z-index: 1;
+  background-color: white;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu-link,
+.login-link {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: unset;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.menu-link:hover,
+.login-link:hover {
+  cursor: pointer;
+  color: #3f4c74;
+}
+.profile-link {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 150px;
+  width: 100%;
+}
+.login-btn {
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  background-color: #3f4c74;
+  padding: 12px 32px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+}
+
+.mess-icon {
+  padding: 12px;
+  background-color: #e6e6e6;
+  border-radius: 50px;
+}
+
+.divider {
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .menu,
+  .login,
+  .divider {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .menu.active,
+  .login.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-left: 0px !important;
+  }
+  .login.active {
+    margin-top: 230px;
+  }
+}

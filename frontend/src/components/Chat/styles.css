@@ -1,0 +1,33 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.avatar-group-custom {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin-right: 14px;
+}
+
+.avatar-group-custom .avatar {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.avatar-group-custom .avatar-top-right {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.avatar-group-custom .avatar-bottom-left {
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}

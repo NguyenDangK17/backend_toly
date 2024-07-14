@@ -1,0 +1,28 @@
+.general {
+  display: flex;
+  justify-content: center;
+}
+.general-container {
+  width: 70%;
+}
+.col-style {
+  display: flex;
+  justify-content: end;
+}
+.row-style {
+  border: 1px #ccc solid;
+  margin: 2rem;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  position: relative;
+  min-height: 50px;
+}
+
+.input-change {
+  width: 100%;
+  max-width: calc(100% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+}
