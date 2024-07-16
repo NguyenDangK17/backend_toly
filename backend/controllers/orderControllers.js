@@ -103,9 +103,8 @@ const createOrder = asyncHandler(async (req, res) => {
     await session.commitTransaction();
     session.endSession();
     const updatedUser = await User.findById(currentUser);
-
-    res.status(200).json({ userInfo: updatedUser });
-    res.status(200).json({ user: user, order: order, premium: premium });
+    
+    res.status(200).json({ userInfo: updatedUser, user: user, order: order, premium: premium });
   } catch (error) {
     await session.abortTransaction();
     session.endSession();
