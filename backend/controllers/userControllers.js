@@ -102,7 +102,7 @@ const registerUser = asyncHandler(async (req, res) => {
       html: `
         <div>
         <h1>Email Verification</h1>
-          <a href=${`http://localhost:3000/verify-email?token=${user.token}`}>Click here to verify email</a>
+          <a href=${`https://toly.vercel.app/verify-email?token=${user.token}`}>Click here to verify email</a>
         </div>
       `
     })
