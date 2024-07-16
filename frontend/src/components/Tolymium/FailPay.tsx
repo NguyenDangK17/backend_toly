@@ -128,7 +128,7 @@ const FailPay: React.FC = () => {
                       <TableCell align="left">
                         <ul>
                           <li>{`Tên sản phẩm: Gói Premium ${
-                            orders.amount === 2000 ? "Month" : "Year"
+                            orders.amount === 29000 ? "Month" : "Year"
                           }`}</li>
                           <li>{`Số lượng: 1`}</li>
                           <li>{`Đơn giá: ${orders.amount} VNĐ`}</li>

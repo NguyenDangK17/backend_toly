@@ -55,7 +55,7 @@ const createOrder = asyncHandler(async (req, res) => {
   const { amount, createdAt } = req.body;
 
   const subscriptionExpire = new Date(createdAt);
-  const planType = amount === 2000 ? "premium_month" : "premium_year";
+  const planType = amount === 29000 ? "premium_month" : "premium_year";
   subscriptionExpire.setMonth(subscriptionExpire.getMonth() + 1);
 
   const session = await mongoose.startSession();
@@ -92,8 +92,8 @@ const createOrder = asyncHandler(async (req, res) => {
       {
         subscriber: currentUser,
         premiumType: planType,
-        numOfNavigate: amount === 2000 ? 20 : 300,
-        numOfCreateGroupChat: amount === 2000 ? 5 : 10,
+        numOfNavigate: amount === 29000 ? 20 : 300,
+        numOfCreateGroupChat: amount === 29000 ? 5 : 10,
         subscriptionDate: createdAt,
         subscriptionExpire: subscriptionExpire,
       },
