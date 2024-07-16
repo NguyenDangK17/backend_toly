@@ -119,7 +119,7 @@ const payOS = new PayOS(
   "a1803813477cfdedff4b8dc761e015e885f1ee79945052b80304c7d9e734eb3b"
 );
 
-const YOUR_DOMAIN = "http://localhost:3000";
+const YOUR_DOMAIN = "https://toly.vercel.app";
 
 const getPaymentInfo = asyncHandler(async (req, res) => {
   const orderId = req.params.id;

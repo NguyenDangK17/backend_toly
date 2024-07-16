@@ -9,7 +9,7 @@ const connectDB = async () => {
       dbName: "newTest"
     });
 
-    console.log(`MongoDB Connected (NEW)`.bold.green);
+    console.log(`MongoDB Connected (NEW1)`.bold.green);
   } catch (error) {
     console.error(`Error: ${error.message}`);
     process.exit(1); // Exit with a non-zero status code to indicate an error

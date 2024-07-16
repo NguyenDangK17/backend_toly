@@ -40,7 +40,7 @@ app.use("/uploads", express.static(path.join(__dirname, "../uploads")));
 //   "a1803813477cfdedff4b8dc761e015e885f1ee79945052b80304c7d9e734eb3b"
 // );
 
-// const YOUR_DOMAIN = "http://localhost:3000";
+// const YOUR_DOMAIN = "https://toly.vercel.app";
 
 // app.post("/create-payment-link", async (req, res) => {
 //   try {
