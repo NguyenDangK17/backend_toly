@@ -126,9 +126,6 @@ module.exports = `
         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
           <tr>
             <td align="center" valign="top" style="padding: 36px 24px;">
-              <a href="https://www.blogdesire.com" target="_blank" style="display: inline-block;">
-                <img src="https://www.blogdesire.com/wp-content/uploads/2019/07/blogdesire-1.png" alt="Logo" border="0" width="48" style="display: block; width: 48px; max-width: 48px; min-width: 48px;">
-              </a>
             </td>
           </tr>
         </table>
@@ -178,7 +175,7 @@ module.exports = `
           <!-- start copy -->
           <tr>
             <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
-              <p style="margin: 0;">Tap the button below to confirm your email address. If you didn't create an account with <a href="https://blogdesire.com">Paste</a>, you can safely delete this email.</p>
+              <p style="margin: 0;">Tap the button below to confirm your email address. If you didn't create an account with <a href="https://toly.vercel.app">Toly</a>, you can safely delete this email.</p>
             </td>
           </tr>
           <!-- end copy -->
@@ -192,7 +189,7 @@ module.exports = `
                     <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" bgcolor="#1a82e2" style="border-radius: 6px;">
-                          <a href="https://www.blogdesire.com" target="_blank" style="display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;">Do Something Sweet</a>
+                          <a href=${`https://toly.vercel.app/verify-email?token=${user.token}`} target="_blank" style="display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px;">Verify your email</a>
                         </td>
                       </tr>
                     </table>
@@ -206,8 +203,8 @@ module.exports = `
           <!-- start copy -->
           <tr>
             <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px;">
-              <p style="margin: 0;">If that doesn't work, copy and paste the following link in your browser:</p>
-              <p style="margin: 0;"><a href="https://blogdesire.com" target="_blank">https://blogdesire.com/xxx-xxx-xxxx</a></p>
+              <p style="margin: 0;">If that doesn't work, please contact us through this link:</p>
+              <p style="margin: 0;"><a href="https://toly.vercel.app/contact" target="_blank">Contact</a></p>
             </td>
           </tr>
           <!-- end copy -->
@@ -215,7 +212,7 @@ module.exports = `
           <!-- start copy -->
           <tr>
             <td align="left" bgcolor="#ffffff" style="padding: 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; border-bottom: 3px solid #d4dadf">
-              <p style="margin: 0;">Cheers,<br> Paste</p>
+              <p style="margin: 0;">Cheers,<br> Toly</p>
             </td>
           </tr>
           <!-- end copy -->
@@ -251,8 +248,8 @@ module.exports = `
           <!-- start unsubscribe -->
           <tr>
             <td align="center" bgcolor="#e9ecef" style="padding: 12px 24px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; color: #666;">
-              <p style="margin: 0;">To stop receiving these emails, you can <a href="https://www.blogdesire.com" target="_blank">unsubscribe</a> at any time.</p>
-              <p style="margin: 0;">Paste 1234 S. Broadway St. City, State 12345</p>
+              <p style="margin: 0;">To stop receiving these emails, you can <a href="https://toly.vercel.app" target="_blank">unsubscribe</a> at any time.</p>
+              <p style="margin: 0;">Toly 1234 S. Broadway St. City, State 12345</p>
             </td>
           </tr>
           <!-- end unsubscribe -->
