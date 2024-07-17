@@ -91,7 +91,7 @@ const registerUser = asyncHandler(async (req, res) => {
       service: "gmail",
       auth: {
         user: "tolyinc.exe2@gmail.com",
-        pass: "twghftqjnblirqf",
+        pass: "ywsjbkzgxokcvfqd",
       },
     })
 
@@ -101,6 +101,7 @@ const registerUser = asyncHandler(async (req, res) => {
       subject: "Email Verification",
       html: `
         <head>
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Email Confirmation</title>
